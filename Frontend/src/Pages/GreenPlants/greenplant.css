@@ -1,0 +1,45 @@
+.greens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.green {
+    background-color: #DAE8DA;
+    width: 80%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    border-radius: 15px;
+
+    img {
+        width: 130px;
+        height: 130px;
+        opacity: 0.7;
+        transition: all 0.3s ease;
+    }
+}
+
+.green>img:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width:768px) {
+
+    .green {
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+        gap: 20px;
+        img {
+            display: block;
+            width: 70px;
+            height: 70px;
+       }
+         
+  
+
+}}

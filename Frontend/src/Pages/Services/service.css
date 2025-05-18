@@ -1,0 +1,35 @@
+.services{
+    /* background-color: red; */
+    display: flex;
+    align-content: inherit;
+    justify-content: center;
+    padding: 40px;
+    justify-content: space-around;
+}
+.service{
+    border: 2px dotted green;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.service-icon{
+    font-size: 60px;
+    color: green;
+}
+.service-text{
+    h3{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:768px) {
+    .services{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}
